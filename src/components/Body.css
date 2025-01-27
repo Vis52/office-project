@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+};
+body{
+    background-image: url('../utils/img/images.jpg');
+};
+
+.line1{
+    margin-top: 100px;
+    margin-left: 40px;
+
+};
+h1{
+    font-size: 40;
+    margin-left: 40px;
+    font-weight: bold;
+
+
+
+}
+
+.line2{
+    margin-left: 40px;
+}
+
+.v1{
+    margin-left: 40px;
+    color: #0a0a0a;
+}
+.v2{
+    margin-left: 100px;
+    color: #0a0a0a;
+    justify-content: space-between 5px;
+}
