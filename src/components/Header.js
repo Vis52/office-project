@@ -15,7 +15,7 @@ function Header() {
         <img src={logo} alt="Cleanser Logo" /> Cleanser
       </Navbar.Brand> <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="my-auto">
             <NavDropdown className='my-auto' title="Product"
               id="product-dropdown">
               <NavDropdown.Item className='my-auto' href="#product/our-products">Our Products</NavDropdown.Item>

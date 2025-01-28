@@ -1,24 +1,31 @@
-import React from 'react'
+import React from 'react';
 import './Body.css';
-import images   from'../utils/img/images.jpg';
+import bg from '../utils/img/bg.jpg'; 
 
 function Body() {
     return (
-    
-        <div >
-            <p class='line1'><b>SKIN CLEANSER</b></p><br></br>
-            <b> <b><h1>Balancing Gel<br></br>Cleanser</h1><br></br></b>
-                <p class='line2'>A balancing gel Cleanser is a gentle yet effective skincare product <br></br>
-                    design to remove impurities, excess oil,and make up while<br></br>
-                    maintaining the skin's natural ph balance.</p></b>
+        <div className='container2'>
             <div>
-                <button class='v1'>Explore Now</button>
-                 <button classs='v2'> How To Buy</button>
+            {/* <img src={bg} alt="Body Image" /> */}
+                <p className="line1"><b>SKIN CLEANSER</b></p><br />
+                <h1><b>Balancing Gel<br />Cleanser</b></h1>
+                
+                <p className="line2">
+                    A balancing gel Cleanser is a gentle yet effective skincare product <br />
+                    designed to remove impurities, excess oil, and makeup while <br />
+                    maintaining the skin's natural pH balance.
+                </p><br></br>
+            
+                <button  href='Explore Now'className="v1">Explore Now</button>
+                <button  href='How To Buy'className="v2">How To Buy</button>
+                
             </div>
-
+            
+        
+                
+        
         </div>
-
-    )
+    );
 }
 
 export default Body;
