@@ -1,12 +1,21 @@
 import React from 'react';
 import './Body.css';
-import bg from '../utils/img/bg.jpg'; 
+import bi from '../utils/img/bi.jpg';
+import amplitude from '../utils/img/amplitude.jpg';
+import amzon from '../utils/img/amzon.jpeg';
+import  google from '../utils/img/google.png';
+import asana from '../utils/img/asana.png';
+import shopify from '../utils/img/shopify.png';
+import product from '../utils/img/product.png';
+import grammarly from '../utils/img/grammarly.png';
+import base from '../utils/img/base.png';
 
 function Body() {
     return (
         <div className='container2'>
-            <div>
-            {/* <img src={bg} alt="Body Image" /> */}
+            <div className='body-rl'>
+            <div className='container-left'>
+            
                 <p className="line1"><b>SKIN CLEANSER</b></p><br />
                 <h1><b>Balancing Gel<br />Cleanser</b></h1>
                 
@@ -19,6 +28,24 @@ function Body() {
                 <button  href='Explore Now'className="v1">Explore Now</button>
                 <button  href='How To Buy'className="v2">How To Buy</button>
                 
+            </div>
+            <div className='container-right'>
+                <img src={bi} alt=''/>
+            </div>
+            </div>
+
+            <div className='img-container'>
+                
+               <div className='box'>
+                 <img src={amzon} alt='' />
+                <img src={asana} alt=''/>
+                <img src={google} alt=''/>
+                <img src={amplitude} alt=''/>
+                <img src={shopify} alt=''/>
+                <img src={product} alt=''/>
+                <img src={grammarly} alt=''/>
+                <img src={base} alt=''/>
+                </div>
             </div>
             
         

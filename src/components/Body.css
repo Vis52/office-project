@@ -1,13 +1,21 @@
-
- /* body{
+/* body{
 background-image: url('../utils/img/bg.jpg');
 width: 100%; */
 
-.container2{
-    background-image: url('../utils/img/bg.jpg');
+.container2 {
+    /* background-image: url('../utils/img/bg.jpg'); */
     /* margin-top: 25px; */
     width: 100%;
-} 
+    justify-content: space-between;
+
+
+}
+
+.body-rl {
+    display: flex;
+
+
+}
 
 /* .img-container {
      
@@ -19,16 +27,28 @@ width: 100%; */
     width: 100%; 
     max-width: 700px; 
     height: auto;
-} */ 
+} */
+.container-right img {
+
+
+    height: 550px;
+    margin-left: 200px;
+
+
+}
+
+.container-left {}
 
 .line1 {
     font-size: 24px;
     color: #333;
     margin-top: 40px;
     margin-left: 40px;
+
 }
-h1{
-    font-family: 25px;
+
+h1 {
+    font-family: 18px;
     font-weight: bolder;
     margin-left: 40px;
 }
@@ -42,7 +62,7 @@ h1{
 }
 
 button {
-    background-color: #4CAF50; 
+    background-color: #4CAF50;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -61,14 +81,71 @@ button.v1 {
 }
 
 button.v2 {
-    background-color: #008CBA; 
+    background-color: #008CBA;
 }
-button.v1:hover{
+
+button.v1:hover {
     color: palevioletred;
 
 }
 
-button.v2:hover{
+button.v2:hover {
     color: palevioletred;
 
 }
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* overflow: hidden; */
+    /* background-color: rgb(237, 241, 237); */
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    justify-content: space-between;
+    /* background-color: green; */
+    /* animation-name: vishal;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; */
+    animation: moveBox 5s linear infinite; 
+}
+
+@keyframes moveBox {
+    0% {
+        transform: translateX(0); 
+      }
+      100% {
+        transform: translateX(100vw);
+      }
+    
+}
+
+/* .img-container img{
+    width: 250px;
+    height: 60px;
+    position: relative;
+    background-color: white(0, 10%, 94%);
+animation-name: vishal;
+animation-duration: 0.8s;
+animation-iteration-count: 80;
+} */
+
+
+/* @keyframes vishal {
+    from{
+        top: 0px;
+        left: 0px;
+    }
+
+} */
+
+/* .img-container img{
+    font-size: 5px;
+margin: 200px 250px 300px 400px;} */
