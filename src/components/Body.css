@@ -13,6 +13,7 @@ width: 100%; */
 
 .body-rl {
     display: flex;
+    
 
 
 }
@@ -37,7 +38,10 @@ width: 100%; */
 
 }
 
-.container-left {}
+/* .container-left {
+    height: 550px;
+
+} */
 
 .line1 {
     font-size: 24px;
@@ -78,9 +82,13 @@ button {
 
 button.v1 {
     background-color: #4CAF50;
+    margin-top: 10px;
 }
 
 button.v2 {
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-bottom: 10px;
     background-color: #008CBA;
 }
 
@@ -94,12 +102,27 @@ button.v2:hover {
 
 }
 
+.play-image img{
+    display: flex;
+    flex-direction: row;
+    
+    height: 55px ;
+    margin-left: 20px;
+    
+   
+    
+}
+.btn{
+    display: flex;
+    height: 60px;
+    
+}
+
 .img-container {
     display: flex;
     flex-direction: row;
     position: relative;
-    /* overflow: hidden; */
-    /* background-color: rgb(237, 241, 237); */
+   
 
 }
 
@@ -110,11 +133,7 @@ button.v2:hover {
     height: 40px;
     position: absolute;
     justify-content: space-between;
-    /* background-color: green; */
-    /* animation-name: vishal;
-    animation-duration: 1s;
-    animation-iteration-count: infinite; */
-    animation: moveBox 5s linear infinite; 
+    animation: moveBox 10s linear infinite; 
 }
 
 @keyframes moveBox {
@@ -126,26 +145,6 @@ button.v2:hover {
       }
     
 }
-
-/* .img-container img{
-    width: 250px;
-    height: 60px;
-    position: relative;
-    background-color: white(0, 10%, 94%);
-animation-name: vishal;
-animation-duration: 0.8s;
-animation-iteration-count: 80;
-} */
-
-
-/* @keyframes vishal {
-    from{
-        top: 0px;
-        left: 0px;
-    }
-
-} */
-
-/* .img-container img{
-    font-size: 5px;
-margin: 200px 250px 300px 400px;} */
+.box:hover{
+   animation-play-state: paused;
+}

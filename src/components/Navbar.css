@@ -96,7 +96,7 @@
     border-radius: 2px;
     text-align: center;
   }
-  button.v3{
+  button.v1{
   background-color: #4CAF50; 
     color: white;
     border: 1px solid grey;
@@ -108,3 +108,7 @@
     border-radius: 5px;
   
 }
+/* .v1{
+  height: 40px;
+  padding: 0px;
+} */

@@ -9,6 +9,7 @@ import shopify from '../utils/img/shopify.png';
 import product from '../utils/img/product.png';
 import grammarly from '../utils/img/grammarly.png';
 import base from '../utils/img/base.png';
+import play from '../utils/img/play.png';
 
 function Body() {
     return (
@@ -24,10 +25,12 @@ function Body() {
                     designed to remove impurities, excess oil, and makeup while <br />
                     maintaining the skin's natural pH balance.
                 </p><br></br>
-            
+            <div className='btn'>
                 <button  href='Explore Now'className="v1">Explore Now</button>
+                <div className='play-image'><img src={play} alt=''/>
+                </div>
                 <button  href='How To Buy'className="v2">How To Buy</button>
-                
+                </div>
             </div>
             <div className='container-right'>
                 <img src={bi} alt=''/>
