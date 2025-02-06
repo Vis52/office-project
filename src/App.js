@@ -3,13 +3,24 @@ import Body from './components/Body';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import {BrowserRouter, Routes, Route} from  'react-router-dom';
+import Our_Products from './components/products/Our_Products';
+import News from './components/newsletter/News.js';
+import Best_Selling from './components/products/Best_Selling.js';
+import Contact from './components/newsletter/Contact.js';
+// import Slickk from './components/slick/Slickk.js';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
       
       <Header/>
       <Body/>
+      
+      <Our_Products/>
+      <Best_Selling/>
+      {/* <Slickk/> */}
+      <News/>
+      <Contact/>
       <Footer/>
       {/* <Routes>
         <Route path='/' element={<Product/>}/>
@@ -23,7 +34,7 @@ function App() {
       </Routes> */}
 
       
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </div>
   )
 }

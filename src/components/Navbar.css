@@ -6,7 +6,7 @@
   
   .navbar {
     background-color: #ffffff;
-    padding: 1rem 2rem;
+    /* padding: 1rem 2rem; */
     border-bottom: 1px solid #e0e0e0;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -20,17 +20,24 @@
   .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #5dda9a;
+    color: hwb(120 41% 12%);
+    
     display: flex;
     text-decoration: none;
     border-radius: 2px;
     border-color: #5dda9a;
+    /* margin: 0px; */
     
+  }
+  .navbar-brand:hover{
+    color: #6025c0;
   }
   
   .navbar-brand img {
-    height: 20px;
-    margin-right: 10px;
+    height: 40px;
+    width: 50px;
+    margin: 0px;
+    /* margin-right: 10px; */
   }
   
 
@@ -106,6 +113,8 @@
     flex-direction: row;
     cursor: pointer;
     border-radius: 5px;
+    height: 40px;
+    width: 100px;
   
 }
 /* .v1{

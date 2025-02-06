@@ -2,7 +2,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../utils/img/logo.png';
+import logo1 from '../utils/img/logo1.png';
 import Search from '../utils/img/search.png';
 import user from '../utils/img/user.jpg';
 import Button from 'react-bootstrap/esm/Button';
@@ -12,14 +12,14 @@ function Header() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container> <Navbar.Brand href="home">
-        <img src={logo} alt="Cleanser Logo" /> Cleanser
+        <img src={logo1} alt="Cleanser Logo" /> Organic Beauty
       </Navbar.Brand> <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="my-auto">
-            <NavDropdown className='my-auto' title="Product"
+          <Nav className="m-auto">
+            <NavDropdown className='m-auto' title="Product"
               id="product-dropdown">
-              <NavDropdown.Item className='my-auto' href="product/our-products">Our Products</NavDropdown.Item>
-              <NavDropdown.Item className='my-auto' href="product/best-selling">Best Selling Product</NavDropdown.Item>
+              <NavDropdown.Item className='m-auto' href="product/our-products">Our Products</NavDropdown.Item>
+              <NavDropdown.Item className='m-auto' href="product/best-selling">Best Selling Product</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="story">Story</Nav.Link>
             <Nav.Link href="manufacturing">Manufacturing</Nav.Link>

@@ -1,0 +1,12 @@
+.our_products h1{
+    margin-top: 80px;
+    margin-left: 450px;
+    
+    align-items: center;
+}
+.our_products{
+    width: 100%;
+}
+.item{
+    width: 90%;
+}
