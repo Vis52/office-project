@@ -5,6 +5,8 @@ import best3 from '../utils/img/best3.jpg';
 import best4 from '../utils/img/best4.jpg';
 import best5 from '../utils/img/best5.jpg';
 import best6 from '../utils/img/best6.jpg';
+import best7 from '../utils/img/best7.jpg';
+import best8 from '../utils/img/best8.jpg';
 const best_product = [
     
     //     id : 1,
@@ -58,8 +60,25 @@ const best_product = [
         id : 3,
         name : "Aloe Vera Gel",
         image: best6,
-        description: "Cooling , Soothing & Repienshing , Bio active aloe vera juice",
+        description: "Cooling , Soothing & Repienshing ",
         price : 315,
+
+
+    },
+    {
+        id : 4,
+        name : "shampoo",
+        image: best7,
+        description: " Safe for color traeted hair ",
+        price : 245,
+
+
+    }, {
+        id : 5,
+        name : "Glow Moisturizer",
+        image: best8,
+        description: " gold complexed vitamin c & niacinamide ",
+        price : 215,
 
 
     },

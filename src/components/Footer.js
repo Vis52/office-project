@@ -26,18 +26,18 @@ function Footer() {
               <h4>  <img src={ft} alt='ft-image'/></h4>
             
             <h3> Why Our Products<br/>
-            <h5>
-            Healthier Choice.<br/>
-Eco-Friendly.<br/>
-Chemical-Free.<br/>
-Sustainable Living.<br/>
-Pure Ingredients.<br/>
-Cruelty-Free.<br/>
-Natural Beauty.<br/>
-Nurturing Skin.<br/>
-Gentle Care.<br/>
-Toxin-Free.</h5></h3>
-            
+            <ul>
+  <li>Healthier Choice.</li>
+     <li> Eco-Friendly</li>
+<li> Chemical-Free.</li>
+    <li>Sustainable Living.</li>
+<li>Pure Ingredients.</li>
+<li>Cruelty-Free.</li>
+<li>Natural Beauty.</li>
+<li>Nurturing Skin.</li>
+<li>Gentle Care.</li>
+<li>Toxin-Free.</li>
+</ul> </h3>           
         </div>
         <div className='footer-content3'>
           <h1>Organic

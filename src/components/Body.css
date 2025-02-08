@@ -1,13 +1,10 @@
-/* body{
-background-image: url('../utils/img/bg.jpg');
-width: 100%; */
+
 
 .container2 {
-    /* background-image: url('../utils/img/bg.jpg'); */
-    /* margin-top: 25px; */
+    
     width: 100%;
     justify-content: space-between;
-    /* background-color:lightpink; */
+    
 
 
 }
@@ -95,12 +92,14 @@ button {
     cursor: pointer;
     border-radius: 5px;
     justify-content: space-between;
+    
 }
 
 button.v1 {
     background-color: #4CAF50;
     margin-top: 10px;
     width: 150px;
+    padding-bottom: 10px;
 }
 
 button.v2 {
@@ -111,7 +110,7 @@ button.v2 {
 }
 
 button.v1:hover {
-    color: palevioletred;
+    color: rgb(12, 12, 12);
 
 }
 

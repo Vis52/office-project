@@ -15,6 +15,10 @@ import bmage_product from '../utils/Bmage.js'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Our_Products from './products/Our_Products.js';
+import Best_Selling from './bestproduct/Best_Selling.js';
+import News from './news/News.js';
+import Contact from './contact/Contact.js';
 
 function Body() {
     const settings = {
@@ -26,6 +30,7 @@ function Body() {
       };
     return (
         <div className='container2'>
+            {/* <Our_Products /> */}
             <div className='body-rl'>
             <div className='container-left'>
             
@@ -77,7 +82,10 @@ function Body() {
             ))}
               </Slider>
         </div>
-                
+        <Our_Products />
+        <Best_Selling />
+        <News />
+        <Contact />  
       
         </div>
     );

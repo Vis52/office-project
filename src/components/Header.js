@@ -16,25 +16,33 @@ function Header() {
       </Navbar.Brand> <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
-            <NavDropdown className='m-auto' title="Product"
+            {/* <NavDropdown className='m-auto' title="Product"
               id="product-dropdown">
               <NavDropdown.Item className='m-auto' href="product/our-products">Our Products</NavDropdown.Item>
               <NavDropdown.Item className='m-auto' href="product/best-selling">Best Selling Product</NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="story">Story</Nav.Link>
-            <Nav.Link href="manufacturing">Manufacturing</Nav.Link>
-            <NavDropdown title="Packazine" id="packazine-dropdown">
+            </NavDropdown> */}
+            <Nav.Link href="Home">Home</Nav.Link>
+
+
+
+
+            <Nav.Link href="Our_Products">Our Products</Nav.Link>
+
+            <Nav.Link href="Best_selling_products">Best Selling Products</Nav.Link>
+            <Nav.Link href="contact">Contact Us</Nav.Link>
+            <Nav.Link href='news'>News Letter</Nav.Link>
+            {/* <NavDropdown title="Packaging" id="packazine-dropdown">
               <NavDropdown.Item href="packazine/without-plastic">Without Plastic</NavDropdown.Item>
               <NavDropdown.Item href="packazine/environment-supporting">Environment Supporting</NavDropdown.Item>
               
-            </NavDropdown>
-            <button  href='Sign-in'className="v1">Sign-in</button>
+            </NavDropdown> */}
+            <button href='Sign-in' className="v1">Sign-in</button>
             <Nav.Link href='Search here'>
 
-              <img src={Search} alt='Search here' /> 
+              <img src={Search} alt='Search here' />
             </Nav.Link>
-            <Nav.Link href='user'>
-              <img src={user} alt='user' /> </Nav.Link>
+            {/* <Nav.Link href='user'>
+              <img src={user} alt='user' /> </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
 
