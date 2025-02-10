@@ -46,7 +46,7 @@ function Body() {
                  environment, all while enhancing your natural glow.
                 </p><br></br>
             <div className='btn'>
-                <button  href='Explore Now'className="v1">Explore Now</button>
+                <button  href='Explore Now'className="v1">Explore</button>
                 <div className='play-image'><img src={play} alt=''/>
                 </div>
                 <button  href='How To Buy'className="v2">How To Buy</button>
@@ -82,10 +82,10 @@ function Body() {
             ))}
               </Slider>
         </div>
-        <Our_Products />
+        {/* <Our_Products />
         <Best_Selling />
         <News />
-        <Contact />  
+        <Contact />   */}
       
         </div>
     );
