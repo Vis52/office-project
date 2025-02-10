@@ -82,10 +82,10 @@ function Body() {
             ))}
               </Slider>
         </div>
-        {/* <Our_Products />
+        <Our_Products />
         <Best_Selling />
         <News />
-        <Contact />   */}
+        <Contact />  
       
         </div>
     );
