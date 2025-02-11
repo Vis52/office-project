@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import best_product from '../../utils/Best'
 import Item from '../Item/Item'
 import './Best_Selling.css';
@@ -16,6 +16,35 @@ const Best_Selling = () => {
     slidesToShow: 1,
     slidesToScroll: 1
   };
+
+  const slideTheSlider = () => {
+    const slider = document.getElementById("bestSellingSlider");
+    const current = slider.scrollLeft;
+    const max = slider.scrollWidth - slider.clientWidth;
+    // if slider slided max return to start position
+    if (current >= 0.9*max) {
+      slider.scrollTo({
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+    // else slide
+    else {
+      slider.scrollTo({
+        left: slider.scrollLeft + slider.offsetWidth / 3,
+        behavior: "smooth",
+      });
+    }
+  }
+
+  useEffect(()=> {
+    setInterval(() => {
+      slideTheSlider();
+      // console.log("iuhgfdfty");
+    }, 4000);
+  })
+
+
   return (
     <div className='best_selling'>
         <h1>Best Selling Products</h1><br/>
@@ -23,7 +52,7 @@ const Best_Selling = () => {
               Your Skin Refreshed And Growing.The Perfect 
             Yet Effective Cleanser Is Now<br/> 
            <p1> Available At Unbeaten price</p1></p>
-             <div className='selling'>
+             <div className='selling d-flex flex-row px-3 overflow-x-scroll hide-scrollbar vw-100' id="bestSellingSlider">
               {/* <Slider {...settings}> */}
                 {/* <div className='op'> */}
                 {best_product.map((item ,i) =>{

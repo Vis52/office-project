@@ -3,9 +3,9 @@ import'./Selling.css';
 
 const Selling = (props) => {
   return (
-    <div className='Item'>
-        <div className='img-container'>
-        <img src={props.image} alt=''/></div>
+    <div className='Item col-4'>
+        <div className='img-container w-100'>
+        <img src={props.image} className='w-100 h-auto' alt=''/></div>
         <p>{props.name}</p>
         <div className='des'>
         {props.description}</div>
