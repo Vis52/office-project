@@ -47,7 +47,7 @@ function Header() {
             }<div className='search'>
              <form>
                 <input className='b1' type="text" name="name" placeholder="       Search here" />
-                <input className='b2' type="submit" value="Go" />
+                {/* /<input className='b2' type="submit" value="Go" /> */}
             </form>
             </div>
             
