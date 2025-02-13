@@ -9,13 +9,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 const Best_Selling = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 100,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
+  // const settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 100,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1
+  // };
 
   const slideTheSlider = () => {
     const slider = document.getElementById("bestSellingSlider");
@@ -66,4 +66,4 @@ const Best_Selling = () => {
   )
 }
 
-export default Best_Selling
+export default Best_Selling;

@@ -3,10 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo1 from '../utils/img/logo1.png';
-import Search from '../utils/img/search.png';
+import Search from '../components/searchbar/Search.js';
 import user from '../utils/img/user.jpg';
 import Button from 'react-bootstrap/esm/Button';
 import { useAuth0 } from "@auth0/auth0-react";
+import Cart1 from '../components/cart/Cart1.js'
 import './Navbar.css'
 
 function Header() {
@@ -36,7 +37,7 @@ function Header() {
             { isAuthenticated && <p> {user.name}</p>}
             {
               isAuthenticated ?(
-                <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+                <button onClick={() => logout({ logoutParams: { returnTo: window.location.Home } })}>
                 Log Out
               </button>
 
@@ -44,12 +45,15 @@ function Header() {
                 <button onClick={() => loginWithRedirect()}>Log In</button>
 
               )
-            }<div className='search'>
+            }<div>
+            <Search /> 
+            </div>
+ {/* <Cart1 /> */}
+            {/* <div className='search'>
              <form>
                 <input className='b1' type="text" name="name" placeholder="       Search here" />
                 {/* /<input className='b2' type="submit" value="Go" /> */}
-            </form>
-            </div>
+            
             
    
             {/* <NavDropdown title="Packaging" id="packazine-dropdown">

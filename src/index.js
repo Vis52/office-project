@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Auth0Provider } from '@auth0/auth0-react';
+import { CartProvider } from './context/Cart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,9 @@ root.render(
       redirect_uri: window.location.origin
     }}
   >
+    {/* <CartProvider> */}
     <App />
+    {/* </CartProvider> */}
     </Auth0Provider> 
  
 );

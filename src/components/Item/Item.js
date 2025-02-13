@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react';
+// import cartContext from '../../context/Cart';
 import'./Item.css';
 
 const Item = (props) => {
+  // const cart = useContext (cartContext);
   return (
     <div className='Item'>
         <img src={props.image} alt=''/>
@@ -11,6 +13,15 @@ const Item = (props) => {
         <div className='price'>
            Buy Now | ${props.price}
         </div>
+        {/* <button onClick={() =>
+        cart.setItems([
+          ...cart.items,
+          { name: props.name, price: props.price },
+        ])
+
+
+        }
+        > Add To Cart</button> */}
       
     </div>
   )
