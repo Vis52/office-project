@@ -10,9 +10,6 @@ import ProductPage from './components/ProductPage';
 
 
 const App = () => {
-  <div>
-    <h1> Welcome to My First Project as an intern in Buds N Tech It Solitions</h1>
-  </div>
   const router = createBrowserRouter([
     {
       path: '/',
