@@ -11,7 +11,7 @@ const Item = (props) => {
         <div className='des'>
         {props.description}</div>
         <div className='price'>
-           Buy Now | ${props.price}
+           Buy Now | ₹  {props.price}
         </div>
         {/* <button onClick={() =>
         cart.setItems([

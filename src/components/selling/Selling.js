@@ -10,7 +10,7 @@ const Selling = (props) => {
         <div className='des'>
         {props.description}</div>
         <div className='price'>
-           Buy Now | ${props.price}
+           Buy Now | ₹ {props.price}
         </div>
       
     </div>
