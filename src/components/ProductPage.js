@@ -10,7 +10,8 @@ const ProductPage = () => {
   const product = alldata.find((Brand) => Brand.name.toLowerCase() === name.toLowerCase());
 
   if (!product) {
-    return <div>Product not found</div>;  // Show a message if the product doesn't exist
+    return <div className='p1'> <h1>Sorry, We couldn't find any matches!! </h1>
+    </div>  // Show a message if the product doesn't exist
   }
 
   return (

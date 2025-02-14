@@ -76,22 +76,22 @@ const Search = () => {
       )}
 
       {/* Product Details */}
-      {selectedProduct && (
-        <div className="product-details">
-          <p>{selectedProduct.name}</p>
+      {/* {selectedProduct && (
+        <div className="product-details"> */}
+          {/* <p>{selectedProduct.name}</p> */}
           {/* <p>{selectedProduct.description}</p>
           <img src={selectedProduct.image} alt={selectedProduct.name} />
           <p>Price: ${selectedProduct.price}</p> */}
-          <a 
+          {/* <a 
             href={`/product/${selectedProduct.Link}`}  // Here, the link should be dynamic based on the product's Link field
             target="_blank" 
             rel="noopener noreferrer"
             className="view-product-btn"
           >
             View Product
-          </a>
-        </div>
-      )}
+          </a> */}
+        {/* </div> */}
+      {/* )} */}
     </div>
   );
 };

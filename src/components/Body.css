@@ -15,6 +15,13 @@
 
 
 }
+.hide-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  }
 
 /* .img-container {
      
@@ -57,7 +64,7 @@ h1 {
     font-weight: bolder;
     margin-left: 40px;
 }
-.u1 h2{
+.u2 h2{
     margin-left: 45px;
     font-weight: bolder;
 
@@ -142,7 +149,7 @@ button.v2:hover {
    
 
 }
-
+/* 
 .box {
     display: flex;
     flex-direction: row;
@@ -164,19 +171,19 @@ button.v2:hover {
 }
 .box:hover{
    animation-play-state: paused;
-}
+} */
  .jx img{
     display: flex;
     justify-items: center;
     align-items: center   ;
     height: 90px;
-    margin-left: 400px;
+    margin-left: 200px;
     margin-top: 100px;
-    animation: vox  15s linear infinite; 
+    /* animation: vox  15s linear infinite;  */
  
 
 } 
- @keyframes vox {
+ /* @keyframes vox {
     0%{
         transform:translateX(0%);
     }
@@ -185,7 +192,7 @@ button.v2:hover {
     }
 
     
-}
+} */
 .cx{
     display: flex;
 } 

@@ -5,7 +5,7 @@
     
 }
 .product-details img{
-    height: 650px;
+    height: 500px;
 }
 .product-details-right{
     margin-left: 60px;
@@ -58,3 +58,27 @@
 .u1:hover{
     background-color: rgb(178, 120, 233);
 }
+.p1{
+    justify-content: center; 
+    color: rgb(19, 18, 15);
+    background-color:rgb(169, 225, 175); 
+    border: 1px solid palegreen;
+    border-radius: 20px;
+    width: 900px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    animation: infinite cox 10s linear;
+}
+@keyframes cox {
+    0% {
+        transform: translateX(0); 
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    
+}
+.p1:hover{
+    animation-play-state: paused;
+ }

@@ -29,11 +29,11 @@ function Header() {
 
 
 
-            <Nav.Link href="Our_Products">Our Products</Nav.Link>
+            <Nav.Link href="/Our_Products">Our Products</Nav.Link>
 
-            <Nav.Link href="Best_selling_products">Best Selling Products</Nav.Link>
-            <Nav.Link href="contact">Contact Us</Nav.Link>
-            <Nav.Link href='news'>News Letter</Nav.Link>
+            <Nav.Link href="/Best_selling_products">Best Selling Products</Nav.Link>
+            <Nav.Link href="/contact">Contact Us</Nav.Link>
+            <Nav.Link href='/news'>News Letter</Nav.Link>
             { isAuthenticated && <p> {user.name}</p>}
             {
               isAuthenticated ?(
