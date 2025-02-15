@@ -1,14 +1,5 @@
 import React, { useEffect } from 'react';
 import './Body.css';
-import bi from '../utils/img/bi.jpg';
-import amplitude from '../utils/img/amplitude.jpg';
-import amzon from '../utils/img/amzon.jpg';
-import google from '../utils/img/google.png';
-import asana from '../utils/img/asana.png';
-import shopify from '../utils/img/shopify.png';
-import product from '../utils/img/product.png';
-import grammarly from '../utils/img/grammarly.png';
-import base from '../utils/img/base.png';
 import play from '../utils/img/play.png';
 import ge from '../utils/img/ge.jpg';
 import bmage_product from '../utils/Bmage.js';
@@ -16,6 +7,7 @@ import Our_Products from './products/Our_Products.js';
 import Best_Selling from './bestproduct/Best_Selling.js';
 import News from './news/News.js';
 import Contact from './contact/Contact.js';
+import newhome from '../utils/img/newhome.jpg'
 
 function Body() {
   // Function for sliding the logo slider
@@ -57,11 +49,12 @@ function Body() {
             <div className='line-left'><h1><b>Organic </b> </h1></div>
             <div className='line-right'> <h1><b>Beauty </b></h1></div>
           </div><br />
-          <div className='u2'> <h2>ABOUT US</h2></div>
+          <div className='u2'> <h2>Face Oil</h2></div>
           <p className="line2">
-            We are passionate about bringing you skincare products crafted from the finest organic ingredients.<br />
-            Our mission is to offer clean, effective beauty solutions that nourish your skin and respect the <br />
-            environment, all while enhancing your natural glow.
+         Organic face oil is a natural skincare product made from plant-based oils that deeply nourish<br/>
+         and hydrate the skin, promoting a healthy, radiant complexion. Packed with essential fatty acids <br/>
+         and antioxidants, it helps to rejuvenate the skin while providing a gentle, chemical-free solution <br/>
+         for all skin types.
           </p><br />
           <div className='btn'>
             <button className="v1">Explore</button>
@@ -70,7 +63,7 @@ function Body() {
           </div>
         </div>
         <div className='container-right'>
-          <img src={ge} alt='' />
+          <img src={newhome} alt='' />
         </div>
       </div>
 

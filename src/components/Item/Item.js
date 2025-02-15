@@ -6,7 +6,7 @@ const Item = (props) => {
   // const cart = useContext (cartContext);
   return (
     <div className='Item'>
-        <img src={props.image} alt=''/>
+        <img  className='item-image'src={props.image} alt=''/>
         <p>{props.name}</p>
         <div className='des'>
         {props.description}</div>

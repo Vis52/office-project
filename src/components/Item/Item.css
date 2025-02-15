@@ -1,11 +1,12 @@
-.item{width: 100%;
+.item{
+    margin-left: 15px;
+    margin-right: 25px;
     
     display: flex;
     margin-top: 40px;
     justify-content: space-between;
     gap: 10px;
-    /* margin-left: 10px;
-    margin-right: 10px; */
+   
     
 
 }

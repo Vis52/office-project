@@ -34,21 +34,21 @@
     max-width: 700px; 
     height: auto;
 } */
+.container-right {
+    margin-right: 0px;
+
+}
 .container-right img {
+    margin-top: 0;
 
 
-    height: 500px;
-    margin-left: 200px;
+    height: 570px;
+    margin-left: 160px;
     /* margin-top: 10px; */
-    border-radius: 25px;
+    /* border-radius: 25px; */
 
 
 }
-
-/* .container-left {
-    height: 550px;
-
-} */
 
 .line1 {
     font-size: 24px;
@@ -95,7 +95,7 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 60px;
+    margin-left: 30px;
     cursor: pointer;
     border-radius: 5px;
     justify-content: space-between;

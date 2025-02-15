@@ -10,6 +10,7 @@ import ProductPage from './components/ProductPage';
 
 
 const App = () => {
+  
   const router = createBrowserRouter([
     {
       path: '/',

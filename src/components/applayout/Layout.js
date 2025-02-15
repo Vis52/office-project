@@ -1,14 +1,27 @@
 import React from 'react';
 import Header from '../Header';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 import Footer from '../Footer';
-import Home from '../Home.js';
-import './Layout.css'
+import './Layout.css';
+import OrganicBeauty from '../Organic/OrganicBeauty.js';
 
-const Layout = () => {
+
+function Layout ()  {
+  const location = useLocation () ; 
+  const isOrganicBeauty = location.pathname === '/';
+
+  
+  
   return (
     <div>
       <Header />
+      {isOrganicBeauty &&(
+        <div> <OrganicBeauty />
+</div>    
+  )}
+    
+      
+      
      
       {/* <Home /> */}
       <Outlet/>

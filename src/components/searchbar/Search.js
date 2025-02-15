@@ -51,14 +51,14 @@ const Search = () => {
           />
         </form>
       </div>
-      {searchAllProduct.length > 0 && (
+      {searchAllProduct.length >     0 && (
         <div className="search-result">
           {searchAllProduct.map((alldata, index) => (
           
 <a
-  href={`/product/${alldata.name.toLowerCase()}`}  // Use product name in URL (lowercased)
+  href={`/product/${alldata.name.toLowerCase()}`} 
   className={selectItem === index ? "search_suggestion_line active" : "search_suggestion_line"}
-  onClick={() => setSelectedProduct(alldata)}  // Optionally set the selected product
+  onClick={() => setSelectedProduct(alldata)}  
 >
   {alldata.name}
 </a>
