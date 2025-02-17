@@ -30,7 +30,7 @@ const OrganicBeauty = () => {
   )
 }
 
-export default OrganicBeauty
+export default OrganicBeauty;
 
 
 
