@@ -8,6 +8,7 @@ import Best_Selling from './bestproduct/Best_Selling.js';
 import News from './news/News.js';
 import Contact from './contact/Contact.js';
 import newhome from '../utils/img/newhome.jpg'
+import c1 from '../utils/img/c1.jpg';
 
 function Body() {
   // Function for sliding the logo slider
@@ -63,7 +64,7 @@ function Body() {
           </div>
         </div>
         <div className='container-right'>
-          <img src={newhome} alt='' />
+          <img src={c1} alt='' />
         </div>
       </div>
 
