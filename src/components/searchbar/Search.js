@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import alldata from '../alldata'; 
 import './Search.css';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const Search = () => {
   const [search, setSearch] = useState("");
@@ -51,23 +52,22 @@ const Search = () => {
           />
         </form>
       </div>
-      {searchAllProduct.length >     0 && (
+      {searchAllProduct.length > 0 ? (
         <div className="search-result">
           {searchAllProduct.map((alldata, index) => (
-          
-<a
-  href={`/product/${alldata.name.toLowerCase()}`} 
-  className={selectItem === index ? "search_suggestion_line active" : "search_suggestion_line"}
-  onClick={() => setSelectedProduct(alldata)}  
->
-  {alldata.name}
-</a>
-
+            <Link
+              key={index} 
+              to={`/product/${alldata.name.toLowerCase()}`} 
+              className={selectItem === index ? "search_suggestion_line active" : "search_suggestion_line"}
+              onClick={() => setSelectedProduct(alldata)}  
+            >
+              {alldata.name}
+            </Link>
           ))}
         </div>
+      ) : (
+        search && <div className="no-results"> Sorry !! No results found</div> // Show message when no results found
       )}
-
-     
     </div>
   );
 };
