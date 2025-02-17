@@ -69,7 +69,8 @@
     margin-right: 200px;
     margin-top: 50px;
     animation: infinite cox 10s linear;
-} h1{
+} 
+.p1 h1{
     font-size: 40px;
     height: 80px;
 }
