@@ -13,7 +13,7 @@ root.render(
     domain="dev-2be2z1jx4dwkp6g3.us.auth0.com"
     clientId="U18u8VyFdrj3yKMmWJfP8SDWGakLIcZT"
     authorizationParams={{
-      redirect_uri: window.location.origin + '/callback',
+      redirect_uri: window.location.origin 
     }}
   >
     {/* <CartProvider> */}
