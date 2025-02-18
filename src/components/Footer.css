@@ -2,16 +2,14 @@
     margin: 0;
     padding: 0;
 }
-footer{
-    height: 5%;
-}
+
 
 .container4{
     border: 1px solid hsl(0, 0%, 2%);
     background-color:#0c0b0b;
     width: 100%;
     
-    /* height: 500px; */
+    height: 520px;
     
     margin-top: 100px;
 }
@@ -22,8 +20,25 @@ footer{
     margin-right: 120px;
 }
 .footer-content3 h1{
-    margin-left: 500px;
+    
+    font-size: 40px;
+    animation: vishal 8s linear infinite;
 }
+@keyframes vishal {
+    0% {
+        transform:translateX(0%) ;
+    }
+    100%{
+        transform: translateX(480%);
+
+    }
+}
+  
+    .footer-content3 h1:hover{
+       animation-play-state: paused;
+    }
+    
+
 
 .footer-content{
     display: flex;
@@ -37,7 +52,7 @@ footer{
     margin-right: 0px;
 }
 .footer-content h4:hover{
-    color: blueviolet;
+    color: rgb(115, 236, 127);
 
 }
 h5{
@@ -103,4 +118,8 @@ h1{
 
  .footer-content3 h1:hover{
     color: #398336;
+ }
+ a{
+    text-decoration: none;
+    color: white;
  }

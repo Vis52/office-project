@@ -6,12 +6,12 @@ function Footer() {
   return (
     <div className='container4'>
         <div className='footer-content'>
-            <h4 href='Work With Us'>Work With Us</h4>
-          <h4 href='Reach Your Happy Place'>Reach Your happy Place</h4>
-            <h4 href='Sustainability'>Sustainability</h4>
-            <h4 href='Investors Policy'>Investors Policy</h4>
-            <h4 href='Privacy Policy'>Privacy Policy</h4>
-            <h4 href='Terms & Condition'>Terms & Condition</h4>
+        <a href='https://organic-beauty-vs.netlify.app/contact'> <h4>Work With Us</h4></a>
+          <a href='https://organic-beauty-vs.netlify.app/Home'><h4>Reach Your happy Place</h4></a>
+            <a href='https://www.iberdrola.com/sustainability/organic-products'><h4>Sustainability</h4></a>
+            <a href='https://apeda.gov.in/OrganicProducts'><h4>Investors Policy</h4></a>
+            <a href='https://www.fineorganics.com/privacy-policy/'><h4>Privacy Policy</h4></a>
+             <a href='https://organicindia.com/pages/terms-condition'> <h4>Terms & Condition</h4></a>
         </div>
 
         <div className='footer-content2'>
